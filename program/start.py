@@ -70,19 +70,19 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🎉  ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ  🎉",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/LuksMusicbot?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton("📚 ᴋᴏᴍᴜᴛʟᴀʀ", callback_data="cbcmds"),
-                    InlineKeyboardButton("💝 sᴀʜɪʙɪᴍ", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("💝 sᴀʜɪʙɪᴍ", url=f"https://t.me/imperatorbey"),
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗯️ ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🗯️ sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/NeonSUP"
                     ),
                     InlineKeyboardButton(
-                        "📣 ʙɪʟɢɪ ᴋᴀɴᴀʟɪ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 ʙɪʟɢɪ ᴋᴀɴᴀʟɪ", url=f"https://t.me/LuksBots"
                     ),
                 ],
             ]
@@ -103,15 +103,15 @@ async def alive(c: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("📣 ᴅᴇsᴛᴇᴋ", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("📣 sᴀʜɪʙɪᴍ", url=f"https://t.me/imperatorbey"),
                 InlineKeyboardButton(
-                    "🗯️ ʙɪʟɢɪ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "🗯️ ʙɪʟɢɪ", url=f"https://t.me/LuksBots"
                 ),
             ]
         ]
     )
 
-    alive = f"**• ᴍᴇʀʜᴀʙᴀ {message.from_user.mention()} {BOT_NAME}**\n\n🧑🏼‍💻 sᴀʜɪʙɪᴍ: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n👾 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴘʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ PʏTɢCᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴄᴀʟɪsᴍᴀ ᴅᴜʀᴜᴍᴜ: `{uptime}`\n\n❤ **Bᴇɴɪ ɢʀᴜʙᴀ ᴀʟᴅɪɢɪɴɪᴢ ɪᴄɪɴ ᴛᴇsᴇᴋᴋᴜʀʟᴇʀ . . !**"
+    alive = f"**• ᴍᴇʀʜᴀʙᴀ {message.from_user.mention()} {BOT_NAME}**\n\n🧑🏼‍💻 sᴀʜɪʙɪᴍ: [{ALIVE_NAME}](https://t.me/imperatorbey)\n👾 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴘʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ PʏTɢCᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴄᴀʟɪsᴍᴀ ᴅᴜʀᴜᴍᴜ: `{uptime}`\n\n❤ **Bᴇɴɪ ɢʀᴜʙᴀ ᴀʟᴅɪɢɪɴɪᴢ ɪᴄɪɴ ᴛᴇsᴇᴋᴋᴜʀʟᴇʀ . . !**"
 
     await c.send_photo(
         chat_id,
@@ -170,11 +170,11 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 ʙɪʟɢɪ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("🗯️ ᴅᴇsᴛᴇᴋ", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("📣 ʙɪʟɢɪ", url=f"https://t.me/LuksBots"),
+                            InlineKeyboardButton("🗯️ sᴀʜɪʙɪᴍ", url=f"https://t.me/imparatorbey")
                         ],
                         [
-                            InlineKeyboardButton("🎙 ᴀsɪssᴛᴀɴ", url=f"https://t.me/{ASSISTANT_NAME}")
+                            InlineKeyboardButton("🎙 ᴀsɪssᴛᴀɴ", url=f"https://t.me/LuksMusicAsisstant")
                         ]
                     ]
                 )
