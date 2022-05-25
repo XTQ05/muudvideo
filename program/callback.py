@@ -29,7 +29,7 @@ async def cbstart(_, query: CallbackQuery):
                 [
                     InlineKeyboardButton(
                         "🎉  ʙᴇɴɪ ɢʀᴜʙᴀ ᴇᴋʟᴇ  🎉",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/LuksMusicbot?startgroup=true",
                     )
                 ],
                 [
@@ -38,10 +38,10 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗯️ ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🗯️ sᴜᴘᴘᴏʀᴛ ɢʀᴜʙᴜ", url=f"https://t.me/NeonSUP"
                     ),
                     InlineKeyboardButton(
-                        "📣 ʙɪʟɢɪ ᴋᴀɴᴀʟɪ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 ʙɪʟɢɪ ᴋᴀɴᴀʟɪ", url=f"https://t.me/LuksBots"
                     ),
                 ],
             ]
@@ -102,17 +102,17 @@ async def cbbasic(_, query: CallbackQuery):
         f"""📚 **ᴛᴇᴍᴇʟ ᴋᴏᴍᴜᴛʟᴀʀɪ :
 
 » /bul => ᴍᴜᴢɪᴋ ɪɴᴅɪʀ .
-» /ara => ᴠɪᴅᴇᴏ ɪɴᴅɪʀ .
-» /oynat => ᴍᴜᴢɪᴋ ᴏʏɴᴀᴛ .
+» /axtar => ᴠɪᴅᴇᴏ ɪɴᴅɪʀ .
+» /play => ᴍᴜᴢɪᴋ ᴏʏɴᴀᴛ .
 » /izlet => ᴠɪᴅᴇᴏ ᴏʏɴᴀᴛ .
 
 » /durdur => ᴍᴜᴢɪɢɪ ᴅᴜʀᴅᴜʀ .
-» /devam => ᴍᴜᴢɪɢɪ sᴜʀᴅᴜʀ .
+» /davam => ᴍᴜᴢɪɢɪ sᴜʀᴅᴜʀ .
 » /atla => ᴍᴜᴢɪɢɪ ᴀᴛʟᴀ .
 » /son => ᴍᴜᴢɪɢɪ sᴏɴʟᴀɴᴅɪʀ .
 » /lyrics => sᴀʀᴋɪ sᴏᴢʟᴇʀɪɴɪ ʙᴜʟ .
 » /reload => ᴀᴅᴍɪɴ ʟɪsᴛᴇsɪɴɪ ɢᴜɴᴄᴇʟʟᴇʀ .
-» /katil => ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴅᴀᴠᴇᴛ ᴇᴅᴇʀ .
+» /qatil => ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴅᴀᴠᴇᴛ ᴇᴅᴇʀ .
 
 » /voynat ( ʟɪɴᴋ ) => ʀᴀᴅɪᴏ ᴠᴇ ғɪʟᴍ ɢɪʙɪ  ᴄᴀɴʟɪ ᴀᴋɪsʟᴀʀɪ ᴏʏɴᴀᴛ.
 
@@ -136,8 +136,8 @@ async def cbadmin(_, query: CallbackQuery):
         f"""📚 **ᴛᴇᴍᴇʟ ᴋᴏᴍᴜᴛʟᴀʀɪ :
 
 » /bul => ᴍᴜᴢɪᴋ ɪɴᴅɪʀ .
-» /ara => ᴠɪᴅᴇᴏ ɪɴᴅɪʀ .
-» /oynat => ᴍᴜᴢɪᴋ ᴏʏɴᴀᴛ .
+» /axtar => ᴠɪᴅᴇᴏ ɪɴᴅɪʀ .
+» /play => ᴍᴜᴢɪᴋ ᴏʏɴᴀᴛ .
 » /izlet => ᴠɪᴅᴇᴏ ᴏʏɴᴀᴛ .
 
 » /durdur => ᴍᴜᴢɪɢɪ ᴅᴜʀᴅᴜʀ .
@@ -146,7 +146,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /son => ᴍᴜᴢɪɢɪ sᴏɴʟᴀɴᴅɪʀ .
 » /lyrics => sᴀʀᴋɪ sᴏᴢʟᴇʀɪɴɪ ʙᴜʟ .
 » /reload => ᴀᴅᴍɪɴ ʟɪsᴛᴇsɪɴɪ ɢᴜɴᴄᴇʟʟᴇʀ .
-» /katil => ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴅᴀᴠᴇᴛ ᴇᴅᴇʀ .
+» /qatil => ᴀsɪsᴛᴀɴɪ ɢʀᴜʙᴀ ᴅᴀᴠᴇᴛ ᴇᴅᴇʀ .
 
 » /voynat ( ʟɪɴᴋ ) => ʀᴀᴅɪᴏ ᴠᴇ ғɪʟᴍ ɢɪʙɪ  ᴄᴀɴʟɪ ᴀᴋɪsʟᴀʀɪ ᴏʏɴᴀᴛ.
 
